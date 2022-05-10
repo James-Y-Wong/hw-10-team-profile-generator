@@ -1,7 +1,7 @@
 function renderManager(manager) {
     return `
     <div class="card employee-card">
-    <div class="card-header">
+    <div class="card-header text-white bg-info">
         <h2 class="card-title">${manager.getName()}</h2>
         <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>${manager.getRole()}</h3>
     </div>
@@ -18,7 +18,7 @@ function renderManager(manager) {
   function renderEngineers(engineers) {
     const markup = engineers.map((engineer) => {
       return `<div class="card employee-card">
-        <div class="card-header">
+        <div class="card-header text-white bg-info">
             <h2 class="card-title">${engineer.getName()}</h2>
             <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>${engineer.getRole()}</h3>
         </div>
@@ -38,7 +38,7 @@ function renderManager(manager) {
     const markup = interns.map((intern) => {
       return `
           <div class="card employee-card">
-      <div class="card-header">
+      <div class="card-header text-white bg-info">
           <h2 class="card-title">${intern.getName()}</h2>
           <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>${intern.getRole()}</h3>
       </div>
@@ -79,7 +79,7 @@ function renderManager(manager) {
   <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 jumbotron mb-3 team-heading">
+            <div class="col-12 jumbotron mb-3 team-heading text-white bg-dark">
                 <h1 class="text-center">My Team</h1>
             </div>
         </div>
