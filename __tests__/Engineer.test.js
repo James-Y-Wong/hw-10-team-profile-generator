@@ -6,7 +6,7 @@ describe("Engineer", () => {
             // Arrange
             const github = "test@github.com";
             // Act
-            const engineer = new Engineer("Ashley", 100, "test@test.com", github)
+            const engineer = new Engineer("Ashley", 100, "test@test.com", github);
             // Assert
             expect(engineer.github).toBe(github);
         });
