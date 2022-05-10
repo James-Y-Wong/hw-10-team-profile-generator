@@ -4,7 +4,7 @@ describe("Intern", () => {
     describe("Initialization", () => {
         it("should set school via constructor arguments", () => {
             // Arrange
-            const school = "Georgia Tech";
+            const school = "GeorgiaTech";
             // Act
             const intern = new Intern("Ashley", 100, "test@test.com", school);
             // Assert
@@ -14,7 +14,7 @@ describe("Intern", () => {
     describe("Getter methods", () => {
         it("should get school via getSchool()", () => {
             // Arrange
-            const school = "Georgia Tech";
+            const school = "GeorgiaTech";
             // Act
             const intern = new Intern("Ashley", 100, "test@test.com", school);
             const internSchool = intern.getSchool();
@@ -26,7 +26,7 @@ describe("Intern", () => {
             // Arrange
             const role = "Intern";
             // Act
-            const intern = new Intern("Ashley", 100, "test@test.com", "Georgia Tech");
+            const intern = new Intern("Ashley", 100, "test@test.com", "GeorgiaTech");
             const internRole = intern.getRole()
             // Assert
             expect(internRole).toBe(role);
