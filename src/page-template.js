@@ -1,3 +1,4 @@
+// renders Manager card
 function renderManager(manager) {
     return `
     <div class="card employee-card">
@@ -15,6 +16,8 @@ function renderManager(manager) {
   </div>
     `;
   }
+
+  // renders Engineer card
   function renderEngineers(engineers) {
     const markup = engineers.map((engineer) => {
       return `<div class="card employee-card">
@@ -34,6 +37,8 @@ function renderManager(manager) {
     });
     return markup.join(",");
   }
+
+  // renders intern card
   function renderInterns(interns) {
     const markup = interns.map((intern) => {
       return `
@@ -62,6 +67,7 @@ function renderManager(manager) {
       `;
   }
   
+  // renders start page without cards
   function render(teamMembers) {
     return `
     <!DOCTYPE html>

@@ -13,6 +13,7 @@ const teamMembers = {
 
 const idArray = [];
 
+// Manager inquirer prompts
 function createManager() {
     inquirer.prompt([
         {
@@ -74,6 +75,7 @@ function createManager() {
     })
 }
 
+// create team inquirer prompts
 function createTeam() {
     inquirer.prompt([
         {
@@ -101,6 +103,8 @@ function createTeam() {
     })
 }
 
+
+// inquirer prompts for when engineer is selected
 function addEngineer() {
     inquirer.prompt([
         {
@@ -165,6 +169,7 @@ function addEngineer() {
     })
 }
 
+// inquirer prompt for when intern is selected
 function addIntern() {
     inquirer.prompt([
         {
@@ -230,6 +235,8 @@ function addIntern() {
 
 }
 
+
+// write file to dist folder called team.html
 function buildTeam() {
     fs.writeFile("dist/team.html", render(teamMembers), (err) => {
         if (err) {
