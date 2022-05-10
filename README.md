@@ -29,7 +29,7 @@
   - Start by running "node index.js" in terminal. Answer the questions that are prompted. Page will generate once all the prompted questions have been answered. Page location will be in the /dist directory
 
 
-  - [Video Link](https://drive.google.com/file/d/1B6zxldiBXPWWfmjd53XWt7mS-MeA6r--/view)
+  - [Video Link](https://drive.google.com/file/d/10h4w2TnDNwEXzZeHkWUIiZ8S0FBtB8I-/view)
 
 
 >Screenshot of prompt questions:
